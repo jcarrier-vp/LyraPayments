@@ -44,8 +44,8 @@ class BillingDetails extends AbstractObject
      */
     public function __construct(array $data = [])
     {
-        parent::__construct(['reference'       => 'n..80',
-                             'title'           => 'n..80',
+        parent::__construct(['reference'       => 'an..80',
+                             'title'           => 'an..80',
                              'type'            => '[PRIVATE,COMPANY]',
                              'firstName'       => 'ans..128',
                              'lastName'        => 'ans..128',
